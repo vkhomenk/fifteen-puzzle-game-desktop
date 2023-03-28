@@ -1,7 +1,9 @@
-# Tauri + Vanilla
-
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Javascript.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+# Fifteen Puzzle Game for desktop
+## Prerequisites
+1. Install Rust language from https://www.rust-lang.org/tools/install
+2. `cargo install tauri-cli`
+## Build
+1. Clone repo
+2. `cargo tauri build`
+## Run
+Executable can be found in src-tauri/target/release/
